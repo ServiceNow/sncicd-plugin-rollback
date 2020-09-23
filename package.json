@@ -2,10 +2,11 @@
   "name": "plugin_rollback",
   "version": "1.0.0",
   "description": "Rollback a desired plugin on ServiceNow instance",
-  "main": "null",
+  "main": "./.github/actions/plugin_rollback/index.ts",
   "scripts": {
     "build": "tsc",
-    "test": "tsc --noEmit && jest",
+    "test": "tsc --noEmit && jest unit --runInBand",
+    "integration": "tsc --noEmit && jest integration --runInBand",
     "lint": "eslint . --ext .ts",
     "format": "prettier --config prettier.json --write ./**/*.ts"
   },
