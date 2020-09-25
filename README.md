@@ -50,7 +50,7 @@ Create secrets called
     appScope: ${{ secrets.APP_SCOPE }}
 ```
 Inputs:
-- **pluginID** - Plugin ID to be installed (like com.servicenow_now_calendar)
+- **pluginID** - Plugin ID for rollback (like com.servicenow_now_calendar)
 
 Outputs:
 - **failed** - Indicates if plugin installed correctly
