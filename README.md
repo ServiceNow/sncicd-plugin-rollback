@@ -48,9 +48,6 @@ Create secrets called
 Inputs:
 - **pluginID** - Plugin ID for rollback (like com.servicenow_now_calendar)
 
-Outputs:
-- **failed** - Indicates if plugin installed correctly
-
 Environment variable should be set up in the Step 1
 - snowUsername - Username to ServiceNow instance
 - snowPassword - Password to ServiceNow instance
