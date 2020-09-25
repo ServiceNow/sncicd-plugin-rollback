@@ -38,7 +38,6 @@ Create secrets called
 ```yaml
 - name: Rollback Plugin 
   if: ${{ failure() && steps.activate_plugin.outputs.failed }} # Runs if Activate Plugin step is failed
-  id: activate_plugin # id of the step
   uses: <url to the repository with action> # like username/repo-name
   with:
     pluginID: 
