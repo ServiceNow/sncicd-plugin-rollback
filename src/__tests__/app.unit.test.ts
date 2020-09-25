@@ -32,7 +32,7 @@ describe(`App lib`, () => {
             expect(app.buildRequestUrl(inputs.pluginID)).toEqual(
                 `https://${props.snowInstallInstance}.service-now.com/api/sn_cicd/plugin/${encodeURIComponent(
                     pluginID,
-                )}/activate`,
+                )}/rollback`,
             )
         })
         it(`without instance parameter`, () => {
