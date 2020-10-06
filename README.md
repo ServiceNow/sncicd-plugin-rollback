@@ -1,4 +1,4 @@
-# ServiceNow Rollback Plugin
+# ServiceNow CI/CD GitHub Action for Rollback Plugin
 
 Rollback a desired plugin on ServiceNow instance.
 
