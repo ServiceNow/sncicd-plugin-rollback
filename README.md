@@ -40,6 +40,8 @@ Environment variable should be set up in the Step 1
 - snowPassword - Password to ServiceNow instance
 - snowInstallInstance - ServiceNow instance where plugin will be rolled back
 
+# Contributing
+
 ## Tests
 
 Tests should be ran via npm commands:
@@ -65,6 +67,8 @@ npm run buid
 npm run format
 npm run lint
 ```
+
+# Notices
 
 ## Support Model
 
