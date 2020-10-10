@@ -17,7 +17,7 @@ Create secrets called
 ```yaml
 - name: Rollback Plugin 
   if: ${{ failure() && steps.activate_plugin.outputs.failed }} # Runs if Activate Plugin step is failed
-  uses: ServiceNow/sncicd_plugin_rollback@1.0 # like username/repo-name
+  uses: ServiceNow/sncicd-plugin-rollback@1.0 # like username/repo-name
   with:
     pluginID: 
   env:
