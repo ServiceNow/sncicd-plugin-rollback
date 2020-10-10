@@ -15,7 +15,7 @@ Create secrets called
 
 ## Step 3: Configure the GitHub action
 ```yaml
-- name: Rollback Plugin 
+- name: sncicd-plugin-rollback 
   if: ${{ failure() && steps.activate_plugin.outputs.failed }} # Runs if Activate Plugin step is failed
   uses: ServiceNow/sncicd-plugin-rollback@1.0 # like username/repo-name
   with:
