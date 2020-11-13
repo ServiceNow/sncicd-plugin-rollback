@@ -1,5 +1,6 @@
 name: 'ServiceNow CI/CD Rollback Plugin'
 description: 'Rollback a desired plugin on ServiceNow instance'
+author: "ServiceNow"
 inputs:
   pluginID:
     description: "Plugin ID to be rolled back"
@@ -7,3 +8,6 @@ inputs:
 runs:
   using: 'node12'
   main: './lib/index.js'
+branding:
+  icon: 'refresh-ccw'
+  color: 'green'
