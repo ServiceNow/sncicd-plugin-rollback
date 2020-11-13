@@ -1,5 +1,5 @@
 name: 'ServiceNow CI/CD Rollback Plugin'
-description: 'Rollback a desired plugin on ServiceNow instance'
+description: 'Rollback a desired plugin on a ServiceNow instance'
 author: "ServiceNow"
 inputs:
   pluginID:
