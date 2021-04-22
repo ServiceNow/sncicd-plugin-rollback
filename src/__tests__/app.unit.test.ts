@@ -87,7 +87,7 @@ describe(`App lib`, () => {
         }
         const url = `https://${props.nowInstallInstance}.service-now.com/api/sn_cicd/plugin/${encodeURIComponent(
             inputs.pluginID,
-        )}/activate`
+        )}/rollback`
 
         expect(post).toHaveBeenCalledWith(url, {}, config)
     })
